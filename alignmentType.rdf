@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:adms="http://www.w3.org/ns/adms#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#"
+    >
+    <skos:ConceptScheme rdf:about="http://purl.org/dcx/lrmi-vocabs/alignmentType/">
+        <dc:title xml:lang="en">LRMI Alignment Type Vocabulary</dc:title>
+        <dc:description xml:lang="en">Describes the types of relationships between a learning resource and an AlighmentObject.</dc:description>
+        <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-01-21</dcterms:created>
+        <dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+        <adms:status rdf:resource="http://purl.org/dcx/lrmi-vocabs/docStatus/draft"/>
+    </skos:ConceptScheme>    
+    <skos:Concept rdf:about="http://purl.org/dcx/lrmi-vocabs/alignmentType/at001">
+        <skos:prefLabel xml:lang="en">assesses</skos:prefLabel>
+        <skosxl:preflabel rdf:resource="http://purl.org/dcx/lrmi-vocabs/alignmentType/assesses"/>
+        <skos:inScheme rdf:resource="http://purl.org/dcx/lrmi-vocabs/alignmentType/"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://purl.org/dcx/lrmi-vocabs/alignmentType/at002">
+        <skos:prefLabel xml:lang="en">teaches</skos:prefLabel>
+        <skosxl:preflabel rdf:resource="http://purl.org/dcx/lrmi-vocabs/alignmentType/teaches"/>
+        <skos:inScheme rdf:resource="http://purl.org/dcx/lrmi-vocabs/alignmentType/"/>        
+    </skos:Concept>
+    <skos:Concept rdf:about="http://purl.org/dcx/lrmi-vocabs/alignmentType/at003">
+        <skos:prefLabel xml:lang="en">requires</skos:prefLabel>
+        <skosxl:preflabel rdf:resource="http://purl.org/dcx/lrmi-vocabs/alignmentType/requires"/>
+        <skos:inScheme rdf:resource="http://purl.org/dcx/lrmi-vocabs/alignmentType/"/>
+    </skos:Concept>    
+    <skos:Concept rdf:about="http://purl.org/dcx/lrmi-vocabs/alignmentType/at004">
+        <skosxl:preflabel rdf:resource="http://purl.org/dcx/lrmi-vocabs/alignmentType/textComplexity"/>
+        <skos:prefLabel xml:lang="en">text complexity</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://purl.org/dcx/lrmi-vocabs/alignmentType/"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://purl.org/dcx/lrmi-vocabs/alignmentType/at005">
+        <skos:prefLabel xml:lang="en">reading level</skos:prefLabel>
+        <skosxl:preflabel rdf:resource="http://purl.org/dcx/lrmi-vocabs/alignmentType/readingLevel"/>
+        <skos:inScheme rdf:resource="http://purl.org/dcx/lrmi-vocabs/alignmentType/"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://purl.org/dcx/lrmi-vocabs/alignmentType/at006">
+        <skos:prefLabel xml:lang="en">educational subject</skos:prefLabel>
+        <skosxl:preflabel rdf:resource="http://purl.org/dcx/lrmi-vocabs/alignmentType/educationalSubject"/>
+        <skos:inScheme rdf:resource="http://purl.org/dcx/lrmi-vocabs/alignmentType/"/>
+    </skos:Concept>
+    <skos:concept rdf:about="http://purl.org/dcx/lrmi-vocabs/alignmentType/at007">
+        <skosxl:preflabel rdf:resource="http://purl.org/dcx/lrmi-vocabs/alignmentType/educationalLevel"/>
+        <skos:prefLabel xml:lang="en">educational level</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://purl.org/dcx/lrmi-vocabs/alignmentType/"/>        
+    </skos:concept>
+    
+    <!-- EXTENDED LABELS -->
+    
+    <skosxl:Label rdf:about="http://purl.org/dcx/lrmi-vocabs/alignmentType/textComplexity">
+        <skosxl:literalForm xml:lang="en">text complexity</skosxl:literalForm>
+    </skosxl:Label>
+    <skosxl:Label rdf:about="http://purl.org/dcx/lrmi-vocabs/alignmentType/requires">
+        <skosxl:literalForm xml:lang="en">requires</skosxl:literalForm>
+    </skosxl:Label>
+    <skosxl:Label rdf:about="http://purl.org/dcx/lrmi-vocabs/alignmentType/educationalSubject">
+        <skosxl:literalForm xml:lang="en">educational subject</skosxl:literalForm>
+    </skosxl:Label>
+    <skosxl:Label rdf:about="http://purl.org/dcx/lrmi-vocabs/alignmentType/teaches">
+        <skosxl:literalForm xml:lang="en">teaches</skosxl:literalForm>
+    </skosxl:Label>
+    <skosxl:Label rdf:about="http://purl.org/dcx/lrmi-vocabs/alignmentType/educationalLevel">
+        <skosxl:literalForm xml:lang="en">educational level</skosxl:literalForm>
+    </skosxl:Label>
+    <skosxl:Label rdf:about="http://purl.org/dcx/lrmi-vocabs/alignmentType/readingLevel">
+        <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    </skosxl:Label>
+    <skosxl:Label rdf:about="http://purl.org/dcx/lrmi-vocabs/alignmentType/assesses">
+        <skosxl:literalForm xml:lang="en">assesses</skosxl:literalForm>
+    </skosxl:Label>
+</rdf:RDF>
