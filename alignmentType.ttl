@@ -1,0 +1,77 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix alignment: <http://purl.org/dcx/lrmi-vocabs/alignmentType/> .
+
+alignment: a skos:ConceptScheme ;
+    dc:description "Describes the types of relationships between a learning resource and an AlighmentObject."@en ;
+    dc:title "LRMI Alignment Type Vocabulary"@en ;
+    dcterms:created "2015-01-21"^^xsd:date ;
+    dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+    adms:status <http://purl.org/dcx/lrmi-vocabs/docStatus/draft> .    
+
+alignment:at001: a skos:Concept ;
+    skos:inScheme alignment: ;
+    skos:prefLabel "assesses"@en ;
+    skosxl:preflabel alignment:assesses . 
+
+alignment:at002 a skos:Concept ;
+    skos:inScheme alignment: ;
+    skos:prefLabel "teaches"@en ;
+    skosxl:preflabel alignment:teaches .         
+
+alignment:at003 a skos:Concept ;
+    skos:inScheme alignment: ;
+    skos:prefLabel "requires"@en ;
+    skosxl:preflabel alignment:requires .    
+
+alignment:at004 a skos:Concept ;
+    skos:inScheme alignment: ;
+    skos:prefLabel "text complexity"@en ;
+    skosxl:preflabel alignment:textComplexity .    
+
+alignment:at005 a skos:Concept ;
+    skos:inScheme alignment: ;
+    skos:prefLabel "reading level"@en ;
+    skosxl:preflabel alignment:readingLevel .    
+
+alignment:at006 a skos:Concept ;
+    skos:inScheme alignment: ;
+    skos:prefLabel "educational subject"@en ;
+    skosxl:preflabel alignment:educationalSubject .     
+
+alignment:at007 a skos:Concept ;
+    skos:inScheme alignment: ;
+    skos:prefLabel "educational level"@en ;
+    skosxl:preflabel alignment:educationalLevel .    
+    
+#============================= 
+# EXTENDED LABELS
+#=============================    
+    
+alignment:assesses a skosxl:label ;
+    skosxl:literalForm "assesses"@en . 
+    
+alignment:teaches a skosxl:label ;
+    skosxl:literalForm "teaches"@en .   
+        
+alignment:requires a skosxl:label ;
+    skosxl:literalForm "requires"@en .   
+        
+alignment:textComplexity a skosxl:label ;
+    skosxl:literalForm "text complexity"@en .
+        
+alignment:readingLevel a skosxl:label ;
+    skosxl:literalForm "reading level"@en .  
+        
+alignment:educationalSubject a skosxl:label ;
+    skosxl:literalForm "educational subject"@en .
+        
+alignment:educationalLevel a skosxl:label ;
+    skosxl:literalForm "educational level"@en . 
