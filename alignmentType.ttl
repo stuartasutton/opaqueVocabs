@@ -16,7 +16,7 @@ alignment: a skos:ConceptScheme ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
     adms:status <http://purl.org/dcx/lrmi-vocabs/docStatus/draft> .    
 
-alignment:at001: a skos:Concept ;
+alignment:at001 a skos:Concept ;
     skos:inScheme alignment: ;
     skos:prefLabel "assesses"@en ;
     skosxl:preflabel alignment:assesses . 
